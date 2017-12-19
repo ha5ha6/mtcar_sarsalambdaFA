@@ -1,6 +1,8 @@
 ## Mountaincar by SARSA(lambda) with function approximation
 
-based on: 
+based on: evangravelle's work
+
+https://gist.github.com/evangravelle/56defd6d01ee738f7cbeb84013145a43
 
 ----------------------------------------
 env: openai gym 'MountainCar-v0'
@@ -47,7 +49,9 @@ epsilonf=0.01
 results:
 
 learning curve:
+
 ![alt test](https://github.com/ha5ha6/mtcar_sarsalambdaFA/blob/master/learning_curve.png)
 
-Q:
+final Q:
+
 ![alt test](https://github.com/ha5ha6/mtcar_sarsalambdaFA/blob/master/q.png)
